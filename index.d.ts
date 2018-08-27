@@ -3,7 +3,7 @@
 // Definitions by: My Self <https://github.com/me>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-import Redis from "ioredis";
+import {Redis} from "ioredis";
 
 export interface TimeoutOptions {
     lockTimeout: number,
@@ -43,8 +43,8 @@ export class SimpleSemaphore implements Semaphore {
 
     public acquire(): Promise<string>;
     public release(): Promise<boolean>;
-    async resurrect(identifier: string): Promise<boolean>;
-    getIdentifier(): string;
+    public resurrect(identifier: string): Promise<boolean>;
+    public getIdentifier(): string;
 
     protected _refresh(): void;
     protected _startRefresh(): void;
@@ -64,8 +64,8 @@ export class FairSemaphore implements Semaphore {
 
     public acquire(): Promise<string>;
     public release(): Promise<boolean>;
-    async resurrect(identifier: string): Promise<boolean>;
-    getIdentifier(): string;
+    public resurrect(identifier: string): Promise<boolean>;
+    public getIdentifier(): string;
 
     protected _refresh(): void;
     protected _startRefresh(): void;
