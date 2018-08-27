@@ -127,7 +127,7 @@ MIT
 [daviddm-url]: https://david-dm.org/swarthy/redis-semaphore
 [codeclimate-image]: https://img.shields.io/codeclimate/github/shadizar128/redis-semaphore.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/shadizar128/redis-semaphore
-[snyk-image]: https://snyk.io/test/npm/redis-semaphore/badge.svg
-[snyk-url]: https://snyk.io/test/npm/redis-semaphore
+[snyk-image]: https://snyk.io/test/github/shadizar128/redis-semaphore/badge.svg?targetFile=package.json
+[snyk-url]: https://snyk.io/test/github/shadizar128/redis-semaphore?targetFile=package.json
 [coverage-image]: https://coveralls.io/repos/github/shadizar128/redis-semaphore/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/r/shadizar128/redis-semaphore?branch=master
