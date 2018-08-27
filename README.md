@@ -125,8 +125,8 @@ MIT
 [ci-url]: https://travis-ci.org/shadizar128/redis-semaphore
 [daviddm-image]: http://img.shields.io/david/swarthy/redis-semaphore.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/swarthy/redis-semaphore
-[codeclimate-image]: https://img.shields.io/codeclimate/github/swarthy/redis-semaphore.svg?style=flat-square
-[codeclimate-url]: https://codeclimate.com/github/swarthy/redis-semaphore
+[codeclimate-image]: https://img.shields.io/codeclimate/github/shadizar128/redis-semaphore.svg?style=flat-square
+[codeclimate-url]: https://codeclimate.com/github/shadizar128/redis-semaphore
 [snyk-image]: https://snyk.io/test/npm/redis-semaphore/badge.svg
 [snyk-url]: https://snyk.io/test/npm/redis-semaphore
 [coverage-image]: https://coveralls.io/repos/github/shadizar128/redis-semaphore/badge.svg?branch=master
