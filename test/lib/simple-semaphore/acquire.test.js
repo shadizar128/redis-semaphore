@@ -1,6 +1,6 @@
 /* global expect client */
 
-const acquire = require('../../../lib/semaphore/acquire')
+const acquire = require('../../../lib/simple-semaphore/acquire')
 
 describe('semaphore acquire', () => {
   it('should return true for success acquire', async () => {

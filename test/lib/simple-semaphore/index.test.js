@@ -1,7 +1,7 @@
 /* global expect client */
 const Promise = require('bluebird')
 
-const { acquire, refresh, release } = require('../../../lib/semaphore')
+const { acquire, refresh, release } = require('../../../lib/simple-semaphore')
 
 describe('semaphore', () => {
   describe('acquire', () => {

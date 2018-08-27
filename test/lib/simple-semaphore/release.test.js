@@ -1,6 +1,6 @@
 /* global expect client */
 
-const release = require('../../../lib/semaphore/release')
+const release = require('../../../lib/simple-semaphore/release')
 
 describe('semaphore release', () => {
   it('should return true for success release', async () => {

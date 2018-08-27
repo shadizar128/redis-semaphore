@@ -1,6 +1,6 @@
 /* global expect client */
 
-const refresh = require('../../../lib/semaphore/refresh')
+const refresh = require('../../../lib/simple-semaphore/refresh')
 
 describe('semaphore refresh', () => {
   it('should return false if resource is not acquired', async () => {
